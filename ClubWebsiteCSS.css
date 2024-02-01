@@ -1,0 +1,92 @@
+body, html {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 3rem;
+    background-color: black;
+    color: orange;
+}
+
+/* Hero */
+.hero {
+    position: relative;
+    top: 0rem;
+    background-image: url(./resources/dejan-zakic-qq1Ul9xi9GU-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+/* About Us*/
+.about-us {
+    padding: 2rem 0 2rem;
+    background-color: orange;
+    text-align: center;
+    margin: 0;
+}
+
+.about-us h3 {
+    margin-bottom: 2rem;
+}
+
+.aboutus-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img[src*='unsplash'] {
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center center;
+    margin: 1rem;
+}
+
+/* cool shit */
+
+.cool-shit {
+    background-color: black;
+    text-align: center;
+    padding: 0;
+    color: orange;
+    padding: 2rem 0 2rem 0;
+}
+
+.cool-shit h1 {
+    margin: 0;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.coolshit-images {
+    display: grid;
+    grid-template: repeat(2, minmax(100px, 1fr)) / repeat(3, minmax(100px, 1fr));
+    gap: 1rem;
+}
+
+/* Footer */
+
+.footer {
+    background-color: orange;
+    color: black;
+    display: flex;
+    align-items: center;
+    height: 2rem;
+}
+
+.footer p {
+    margin-left: 2rem;
+}
